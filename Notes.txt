@@ -1,0 +1,18 @@
+
+1. Convert Image to grayscale
+
+2. Reduce Noise ==> Image noise create falses edges and affect edge detection
+                ==> Using Gaussian filter : 
+                    In a grayscale image, Modify the value of a pixel with the average value of the 
+                    pixel intensities using a kernel of normally distributed numbers which is run across
+                    the entire image and sets each pixel to the weighted average of its neighboring pixels
+                    thus smoothing our image
+
+3. Edge detection   ==> edge is a sharp change in intensity or sharp change in color between adjacent
+                    pixels in the image
+                    ==> Strong gradient = steep change / Small gradient = shallow change
+                    ==> we consider the image a continuous function f(x,y)
+                    ==> To determine a rapid changes in brightness of the image, we perform a derivative
+                    in both x and y directions, thereby measuring the change in intensity with respect
+                    to adjacent pixels
+                    ==> Using Canny function
