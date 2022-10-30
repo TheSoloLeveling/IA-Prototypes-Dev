@@ -16,3 +16,11 @@
                     in both x and y directions, thereby measuring the change in intensity with respect
                     to adjacent pixels
                     ==> Using Canny function
+
+4. Hough Line Transform  ==> To detect straight lines in the image
+                    Hough Space
+                
+
+
+
+
